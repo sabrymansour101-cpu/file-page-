@@ -1,0 +1,82 @@
+<!--
+  Name: Sabry Mansour Helmy
+  Student ID: 225116289
+-->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page - FT-WEB-101</title>
+  <link rel="stylesheet" href="fole.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome</h1>
+    <nav class="nav-bar">
+      <div class="nav-left">Sabry Mansour </div>
+      <div class="nav-links">
+        
+         <a href="#about">عني</a> 
+        <a href="#cards">مهاراتي</a>
+        <a href="#contact">تواصل معي</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <!-- Dark Mode Toggle Button -->
+    <div class="theme-toggle-container">
+      <button id="theme-toggle-btn">تغيير الوضع (Dark / Light)</button>
+    </div>
+
+    <!-- Photo Section -->
+    <section class="profile-photo-section">
+      <img src="image/me.jpg" alt="" class="profile-img">
+    </section>
+
+    <!-- Cards Section (Flexbox with gap) -->
+    <section id="cards" class="cards-container">
+      <div class="card">
+        <h3>مهارات البرمجة</h3>
+        <p>إتقان تطوير شبكة الإنترنت باستعمال HTML5, CSS3, و JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>الهوايات</h3>
+        <p>القراءة، البرمجة، وحل المشكلات التنافسية (Problem Solving).</p>
+      </div>
+      <div class="card">
+        <h3>الأهداف</h3>
+        <p>بناء تطبيقات ويب متكاملة وتطوير مهاراتي في الهندسة وتكنولوجيا المعلومات.</p>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact-section">
+      <h2>تواصل معي</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">الاسم:</label>
+          <input type="text" id="name" name="name" placeholder="أدخل اسمك" required>
+        </div>
+        <div class="form-group">
+          <label for="email">البريد الإلكتروني:</label>
+          <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+        </div>
+        <button type="submit">إرسال</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2026 جميع الحقوق محفوظة - ENG/ Sabry .</p>
+  </footer>
+
+  <!-- Script link at the end of body -->
+  <script src="js.js"></script>
+</body>
+</html>
